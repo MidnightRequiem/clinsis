@@ -1,0 +1,18 @@
+Package: clinsis
+Type: Package
+Title: Land Based Temperature Analysis by Country
+Version: 0.0.0.9000
+Authors@R:
+    person("Nabil", "El Bachiri", email = "freddyfrostt@gmail.com", role = c("aut", "cre"))
+Description: This package provides tools for analyzing and performing statistical operations on land-based temperature data by country, covering the period from 1753 to 2023. It includes functionalities for data processing, visualization, and statistical analysis.
+License: GPL-3	
+Encoding: UTF-8
+LazyData: true
+Imports:
+    ggplot2,
+    dplyr,
+    car,
+    tidyr,
+    PMCMRplus,
+    rlang
+RoxygenNote: 7.2.3
